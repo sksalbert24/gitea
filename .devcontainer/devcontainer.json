@@ -28,6 +28,8 @@
       ]
     }
   },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
   "portsAttributes": {
     "3000": {
       "label": "Gitea Web",
